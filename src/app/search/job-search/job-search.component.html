@@ -1,1 +1,65 @@
-<h1>job-search works!</h1>
+<div class="card  position-absolute top-50 start-50 translate-middle" id="card-props">
+    <div class="card-header" id="header-props">
+        Job Search
+    </div>
+    <div class="card-body">
+        <div class="mb-3 row">
+            <label class="col-sm-5 col-form-label fw-bold" >
+               Key Skills
+            </label>
+            <div class="col-sm-7">
+              <input type="text" class="form-control-plaintext" placeholder="Enter Job Keywords">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-5 col-form-label fw-bold" >
+               Category
+            </label>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">All Jobs</a></li>
+                  <li><a class="dropdown-item" href="#">Govt Jobs</a></li>
+                  <li><a class="dropdown-item" href="#">Contract jobs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-5 col-form-label fw-bold" >
+               Location
+            </label>
+            <div class="col-sm-7">
+              <input type="text" class="form-control-plaintext" placeholder="Location">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label class="col-sm-5 col-form-label fw-bold" >
+               Experience
+            </label>
+            <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">1 year</a></li>
+                    <li><a class="dropdown-item" href="#">2 year</a></li>
+                    <li><a class="dropdown-item" href="#">3 year</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-secondary btn-sm" type="button">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">0 months</a></li>
+                    <li><a class="dropdown-item" href="#">1 months</a></li>
+                    <li><a class="dropdown-item" href="#">2 months</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="mb-3 row">
+            <button type="submit" class="btn btn-success col-sm-6" >
+                Search
+            </button>
+        </div>
+    </div>
+</div>

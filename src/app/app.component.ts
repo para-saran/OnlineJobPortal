@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ThemePalette } from '@angular/material/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +9,18 @@ import { ThemePalette } from '@angular/material/core';
 })
 export class AppComponent {
 
-  ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-    this.background = 'primary';
-  }
   title = 'onlineJobPortal';
-  background: ThemePalette = undefined;
-  
+  links: String[] = [
+    'Register',
+    'Job Search',
+    'Job List',
+    'Job Description',
+    'Job History'
+  ];
+  backgroundColor: ThemePalette = "primary";
+  activeLink = this.links[0];
+
+  constructor(private router: Router) {
+  }
+
 }

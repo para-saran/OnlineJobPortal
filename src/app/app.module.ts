@@ -4,17 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material/tabs';
+import { RegisterComponent } from './register/register/register.component';
+import { JobSearchComponent } from './search/job-search/job-search.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegisterComponent,
+    JobSearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatTabsModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

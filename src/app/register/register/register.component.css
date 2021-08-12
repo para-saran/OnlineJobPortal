@@ -1,0 +1,15 @@
+#card-props {
+    width: 35rem;
+    height: 20rem;
+    align-items: center;
+    background-color: floralwhite;
+}
+
+#header-props {
+    align-items: center;
+    font-weight: bold;
+}
+
+#center-align {
+    align-items: center;
+}

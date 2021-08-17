@@ -17,3 +17,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 #center-align {
     align-items: center;
 }
+
+#job-card-props {
+    width: 60rem;
+    height: 30rem;
+    background-color: floralwhite;
+}

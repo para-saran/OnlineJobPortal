@@ -1,14 +1,31 @@
-<div class="nav justify-content-center">
+<!-- <div class="nav justify-content-center">
     <ul class="nav nav-pills" id="pills-tab" role="tablist">
           <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="true" routerLink="/register" >Register</a>
-          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="false" routerLink="/search" >Job Search</a>
-          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="false"  >Job List</a>
-          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="false"  >Job Description</a>
-          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="false"  >Job History</a>
+          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="true" routerLink="/search" >Job Search</a>
+          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="true" routerLink="/list" >Job List</a>
+          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="true" routerLink="/details" >Job Description</a>
+          <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" role="tab" aria-selected="true" routerLink="/history" >Job History</a>
       </ul>
 </div>
 <div>
     <router-outlet></router-outlet>
+</div> -->
+<div>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand  mb-0 h1" href="#">Deloitte</a>
+            <div class="nav justify-content-center">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <a class="nav-link text-light" id="pills-home-tab" data-bs-toggle="pill" role="tab" routerLink="/register" >Register</a>
+                    <a class="nav-link text-light" id="pills-home-tab" data-bs-toggle="pill" role="tab" routerLink="/search" >Job Search</a>
+                    <a class="nav-link text-light" id="pills-home-tab" data-bs-toggle="pill" role="tab" routerLink="/list" >Job List</a>
+                    <a class="nav-link text-light" id="pills-home-tab" data-bs-toggle="pill" role="tab" routerLink="/details" >Job Description</a>
+                    <a class="nav-link text-light" id="pills-home-tab" data-bs-toggle="pill" role="tab" routerLink="/history" >Job History</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
 </div>
-
-
